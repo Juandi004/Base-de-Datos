@@ -1,4 +1,5 @@
 # Ejecutar las siguientes sentencias:
+
 ## Contar el número de productos de una categoría específica:
 ### Se utilizó el método **Count()** para poder contar el número total de productos existentes en una categoría en específico, en este caso, "Audio".
 
