@@ -60,3 +60,5 @@ INNER JOIN
 ### Captura de la sentencia: 
 
 <img src="./Capturas/event.png" widht="500px" height="1000px">
+
+
