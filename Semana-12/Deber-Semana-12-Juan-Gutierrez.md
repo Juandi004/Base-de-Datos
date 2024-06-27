@@ -34,7 +34,7 @@ JOIN
 
 
 ## Crear una vista donde se muestre la lista de miembros registrados a las conferencias.
-## Base de datos: event
+### Base de datos: event
 ### nombre_conferencia | codigo_registro | nombre_miembro 
 
 ### Código SQL:
