@@ -30,4 +30,4 @@ JOIN
 
 ## Captura de la sentencia: 
 
-<img src="./Capturas/invoice.png" widht="100px" height="300px">
+<img src="./Capturas/invoice.png" widht="500px" height="1000px">
