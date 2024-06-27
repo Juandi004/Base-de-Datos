@@ -2,10 +2,10 @@
 
 ## Crear una vista que muestre la lista de productos comprados por los clientes con las siguientes columnas: 
           
-## Base de datos: invoice
-### nombre_cliente | fecha_compra | nombre_producto | cantidad
+### Base de datos: invoice
+#### nombre_cliente | fecha_compra | nombre_producto | cantidad
 
-# Código SQL: 
+### Código SQL: 
 
 ```
 CREATE VIEW invoice_detail AS
@@ -25,9 +25,38 @@ JOIN
 
 ```
 
-## Funcionalidad:
-### Este código permite unir las 4 tablas existentes en la Base de Datos "invoice" para así obtener una vista que permita al usuario ver el nombre del cliente, junto a la fecha de compra (dato existente en la tabla invoice), nombre_producto (dato existente en la tabla product) y la cantidad del mismo (dato existente en la tabla detail).
+### Funcionalidad:
+#### Este código permite unir las 4 tablas existentes en la Base de Datos "invoice" para así obtener una vista que permita al usuario ver el nombre del cliente, junto a la fecha de compra (dato existente en la tabla invoice), nombre_producto (dato existente en la tabla product) y la cantidad del mismo (dato existente en la tabla detail).
 
-## Captura de la sentencia: 
+### Captura de la sentencia: 
 
-<img src="./Capturas/invoice.png" widht="100px" height="300px">
+<img src="./Capturas/invoice.png" widht="500px" height="1000px">
+
+
+## Crear una vista donde se muestre la lista de miembros registrados a las conferencias.
+## Base de datos: event
+### nombre_conferencia | codigo_registro | nombre_miembro 
+
+### Código SQL:
+
+```
+CREATE VIEW confCode_regCode_member AS
+SELECT
+  conference.title AS nombre_conferencia,
+  register.code AS codigo_registro,
+  member.fullname AS nombre_miembro
+FROM
+  conference
+INNER JOIN
+  register ON conference.id = register.conference_id
+INNER JOIN
+  member ON register.member_id = member.id;
+
+```
+
+### Funcionalidad: 
+#### Este código permite al usuario obtener los siguientes datos: nombre_conferencia (datos existentes en la tabla conference), código_registro (datos existentes en la tabla register) y nombre_miembro (datos existentes en la tabla member).
+
+### Captura de la sentencia: 
+
+<img src="./Capturas/event.png" widht="500px" height="1000px">
