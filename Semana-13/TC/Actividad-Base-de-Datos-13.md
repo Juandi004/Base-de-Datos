@@ -22,7 +22,7 @@ FROM member m;
 
 ### Captura:
 
-<img src="./Capturas/Ejemplo1.png" width="500px" height="1000px">
+<img src="./Capturas/Ejemplo1.png" width="500px" height="300px">
 
 
 ### Consulta 2:
@@ -47,4 +47,4 @@ FROM conference c;
 
 ### Captura: 
 
-<img src="./Capturas/Ejemplo2.png" width="500px" height="1000px">
+<img src="./Capturas/Ejemplo2.png" width="500px" height="300px">
