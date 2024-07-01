@@ -43,7 +43,7 @@ FROM conference c;
 
 ### Funcionalidad:
 
-### Este código muestra el título y el ponente de la conferencia y la fecha en la que fue registrada dicha conferencia (datos existentes en la tabla "register").
+#### Este código muestra el título y el ponente de la conferencia y la fecha en la que fue registrada dicha conferencia (datos existentes en la tabla "register").
 
 ### Captura: 
 
